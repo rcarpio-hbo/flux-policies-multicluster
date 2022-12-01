@@ -7,7 +7,7 @@ spec:
   releaseName: kyverno
   chart:
     spec:
-      chart: charts/kyverno/kyverno-v2.6.0.tgz
+      chart: charts/kyverno/v2.6.0/kyverno-v2.6.0.tgz
       version: "2.6.x"
       sourceRef:
         kind: GitRepository
