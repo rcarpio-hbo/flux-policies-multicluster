@@ -11,7 +11,7 @@ spec:
       version: "2.6.x"
       sourceRef:
         kind: GitRepository
-        name: flux
+        name: flux-system
         namespace: flux-system
   install:
     crds: Create
