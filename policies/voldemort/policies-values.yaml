@@ -1,0 +1,7 @@
+disallowPrivilegeEscalation:
+  enable: true
+  validationFailureAction: "enforce"
+
+disallowPrivilegedContainers:
+  enable: true
+  validationFailureAction: "audit"
