@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: security-policies
+resources:
+  - namespace.yaml
+  - policies-release.yaml
+configMapGenerator:
+  - name: policies-values
+    files:
+      - values.yaml=policies-values.yaml
+configurations:
+  - kustomizeconfig.yaml
