@@ -7,3 +7,5 @@ configMapGenerator:
     behavior: replace
     files:
       - values.yaml=policies-values.yaml
+patchesStrategicMerge:
+  - policies-release-patch.yaml
